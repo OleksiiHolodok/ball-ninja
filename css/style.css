@@ -1,0 +1,119 @@
+body {
+	background: grey;
+}
+
+#igra-pole {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	border: 4px double red;
+	background-image: url(fon.jpg); 
+	position: relative;
+	top: 100px;
+	overflow: hidden;
+}
+
+
+#start-block {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	background: grey; 
+	position: relative;
+}
+
+.ball {
+	background: blue;
+	width: 50px;
+	height: 50Px;
+	border-radius: 50%;
+	position: absolute;	
+  	transition: all 1s; 	
+}
+
+.left {
+	top: 500px;
+	left: -100px;
+}
+
+.right {
+	top: 500px;
+	left: 700px;
+}
+
+#star {
+	font-size: 30px;
+	font-weight: bold;	
+	color: yellow;
+	float: left;	
+	position: absolute;
+	left: 16px;
+    top: 8px;
+}
+
+#lifes {
+	position: absolute;
+	top: 14px;
+    right: 15px;
+}
+
+#span {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	background: red;
+	float: right;
+
+}
+
+#start-button {	
+	position: absolute;
+	margin: 100px auto;
+	padding: 40px 80px;
+	background: yellow;
+	font-size: 40px;
+	border-radius: 25px;
+	border: 6px solid #7922CC;
+	left: 172px;
+}
+
+#buttonStartAgain {
+	position: absolute;
+    top: 245px;
+    left: 233px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 1px solid red;
+    padding: 10px 20px;
+    background: space;
+}
+
+
+#timer {
+	font-size: 25px;
+	border-radius: 25px;
+	background: #7f7de3;
+} 
+
+#info-block {
+	position: absolute;
+	top: 20px;
+	left: 700px;
+	font-size: 15px;
+	border-radius: 25px;
+	padding: 0px 45px;
+	background: #7f7de3;
+}
+
+#end-game {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #42e71d;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
